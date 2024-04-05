@@ -19,7 +19,7 @@ const Details = ({ type, time, place, info }) => {
           {type}
         </h3>
         <span className="capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm">
-          {time} | {place}
+          {place} | {time}
         </span>
         <p className="font-medium w-full md:text-sm">{info}</p>
       </motion.div>
@@ -47,27 +47,24 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
+            type="Bachelor Of Technology In Electrical  Engineering"
+            time="2021-2025"
+            place="Sardar Vallabhbhai National Institute of Technology Surat"
+            info="CGPA: 7.9"
           />
 
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
+            type="Senior Secondary Examination CBSE - Class XII"
+            time="CBSE-2021"
+            place="Bhagwan Mahavir International School - Surat"
+            info="Percentage: 93.4"
           />
 
           <Details
-            type="Bachelor Of Science In Computer Science"
-            time="2016-2020"
-            place="Massachusetts Institute Of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 
-            Intelligence."
+            type="Higher Secondary Examination CBSE - Class X"
+            time="CBSE-2019"
+            place="S.D.Jain Modern School - Surat"
+            info="Percentage: 93.4"
           />
         </ul>
       </div>
