@@ -188,15 +188,15 @@ const Navbar = () => {
               className=""
               toggle={handleClick}
             />
-            <CustomMobileLink
+            {/* <CustomMobileLink
               href="/articles"
               title="Articles"
               className=""
               toggle={handleClick}
-            />
+            /> */}
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-5">
-            <motion.a
+            {/* <motion.a
               href="https://twitter.com"
               target={"_blank"}
               whileHover={{ y: -2 }}
@@ -204,9 +204,9 @@ const Navbar = () => {
               className="w-6 mr-3 sm:mx-2"
             >
               <TwitterIcon />
-            </motion.a>
+            </motion.a> */}
             <motion.a
-              href="https://twitter.com"
+              href="https://github.com/Harshal-0901"
               target={"_blank"}
               className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-2"
               whileHover={{ y: -2 }}
@@ -215,7 +215,7 @@ const Navbar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://www.linkedin.com/in/harshal-presswala/"
               target={"_blank"}
               className="w-6 mx-3 sm:mx-2"
               whileHover={{ y: -2 }}
@@ -223,7 +223,7 @@ const Navbar = () => {
             >
               <LinkedInIcon />
             </motion.a>
-            <motion.a
+            {/* <motion.a
               href="https://twitter.com"
               target={"_blank"}
               className="w-6 mx-3 bg-light rounded-full sm:mx-2"
@@ -231,8 +231,8 @@ const Navbar = () => {
               whileTap={{ scale: 0.9 }}
             >
               <PinterestIcon />
-            </motion.a>
-            <motion.a
+            </motion.a> */}
+            {/* <motion.a
               href="https://twitter.com"
               target={"_blank"}
               className="w-6 ml-3 sm:mx-2"
@@ -240,7 +240,7 @@ const Navbar = () => {
               whileTap={{ scale: 0.9 }}
             >
               <DribbbleIcon />
-            </motion.a>
+            </motion.a> */}
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
               className={`ml-3 flex items-center justify-center rounded-full p-1 xs:ml-1 xs:w-[1.6rem]

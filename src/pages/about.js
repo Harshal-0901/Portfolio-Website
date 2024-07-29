@@ -91,7 +91,7 @@ const about = () => {
               />
             </div>
 
-            <div className="col-span-2 flex flex-col items-end justify-start xl:col-span-8 xl:flex-row xl:items-center md:order-3">
+            <div className="col-span-2 flex flex-col items-end justify-start xl:col-span-8 xl:flex-row xl:items-center xl:justify-between xl:mt-10 md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={20} />+
@@ -104,7 +104,7 @@ const about = () => {
                 </h2>
               </div>
 
-              <div className="flex flex-col items-end justify-center xl:items-center mt-20">
+              <div className="flex flex-col items-end justify-center xl:items-center mt-20 xl:mt-0 xl:ml-10">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
                   <AnimatedNumbers value={15} />+
                 </span>
