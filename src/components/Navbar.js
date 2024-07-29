@@ -10,6 +10,7 @@ import {
   PinterestIcon,
   SunIcon,
   MoonIcon,
+  MailIcon,
 } from "./Icons";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
@@ -102,15 +103,15 @@ const Navbar = () => {
           {/* <CustomLink href="/articles" title="Articles" className="ml-4" /> */}
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
-          {/* <motion.a
-            href="https://twitter.com"
+          <motion.a
+            href="mailto:harshalpresswala007@gmail.com"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
             className="w-6 mr-3"
           >
-            <TwitterIcon />
-          </motion.a> */}
+            <MailIcon />
+          </motion.a>
           <motion.a
             href="https://github.com/Harshal-0901"
             target={"_blank"}
@@ -196,15 +197,15 @@ const Navbar = () => {
             /> */}
           </nav>
           <nav className="flex items-center justify-center flex-wrap mt-5">
-            {/* <motion.a
-              href="https://twitter.com"
+            <motion.a
+              href="mailto:harshalpresswala007@gmail.com"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 mr-3 sm:mx-2"
             >
-              <TwitterIcon />
-            </motion.a> */}
+              <MailIcon />
+            </motion.a>
             <motion.a
               href="https://github.com/Harshal-0901"
               target={"_blank"}
