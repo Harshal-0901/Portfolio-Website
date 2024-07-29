@@ -99,10 +99,10 @@ const Navbar = () => {
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="About" className="mx-4" />
           <CustomLink href="/projects" title="Projects" className="mx-4" />
-          <CustomLink href="/articles" title="Articles" className="ml-4" />
+          {/* <CustomLink href="/articles" title="Articles" className="ml-4" /> */}
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
-          <motion.a
+          {/* <motion.a
             href="https://twitter.com"
             target={"_blank"}
             whileHover={{ y: -2 }}
@@ -110,9 +110,9 @@ const Navbar = () => {
             className="w-6 mr-3"
           >
             <TwitterIcon />
-          </motion.a>
+          </motion.a> */}
           <motion.a
-            href="https://twitter.com"
+            href="https://github.com/Harshal-0901"
             target={"_blank"}
             className="w-6 mx-3 "
             whileHover={{ y: -2 }}
@@ -121,7 +121,7 @@ const Navbar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://twitter.com"
+            href="https://www.linkedin.com/in/harshal-presswala/"
             target={"_blank"}
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
@@ -129,7 +129,7 @@ const Navbar = () => {
           >
             <LinkedInIcon />
           </motion.a>
-          <motion.a
+          {/* <motion.a
             href="https://twitter.com"
             target={"_blank"}
             className="w-6 mx-3 bg-light rounded-full "
@@ -137,8 +137,8 @@ const Navbar = () => {
             whileTap={{ scale: 0.9 }}
           >
             <PinterestIcon />
-          </motion.a>
-          <motion.a
+          </motion.a> */}
+          {/* <motion.a
             href="https://twitter.com"
             target={"_blank"}
             className="w-6 ml-3"
@@ -146,7 +146,7 @@ const Navbar = () => {
             whileTap={{ scale: 0.9 }}
           >
             <DribbbleIcon />
-          </motion.a>
+          </motion.a> */}
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
             className={`ml-5 flex items-center justify-center rounded-full p-1 w-6 

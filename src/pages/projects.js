@@ -1,11 +1,16 @@
 import AnimatedText from "@/components/AnimatedText";
-import { GithubIcon } from "@/components/Icons";
+import { GithubIcon, LinkArrow } from "@/components/Icons";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import zaplflow_img from "../../public/images/projects/project-zapflow.png";
+import smart_content_img from "../../public/images/projects/project-smart-content.png";
+import medcare_img from "../../public/images/projects/project-medcare.png";
+import quill_img from "../../public/images/projects/project-quill.png";
+import ecom_img from "../../public/images/projects/project-ecom.png";
+import infimail_img from "../../public/images/projects/project-infimail.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -70,7 +75,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   );
 };
 
-const Project = ({ type, title, img, link, github }) => {
+const Project = ({ type, title, summary, img, link, github }) => {
   return (
     <article
       className="w-full flex flex-col items-center justify-center rounded-2xl
@@ -110,6 +115,9 @@ const Project = ({ type, title, img, link, github }) => {
           <h2 className="my-2 w-full text-left text-3xl font-bold lg:text-2xl">
             {title}
           </h2>
+          <p className="my-2 font-medium text-dark dark:text-light sm:text-sm">
+            {summary}
+          </p>
         </Link>
         <div className="w-full mt-2 flex items-center justify-between">
           <Link
@@ -146,65 +154,78 @@ const projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link="/"
-                github="/"
+                title="ZapFlow - SaaS Automation Builder"
+                img={zaplflow_img}
+                summary="ZapFlow is a SaaS Automation Builder, a powerful and versatile platform designed to automate and streamline your business processes. Built from the ground up without relying on integration libraries, this builder offers a seamless and customizable experience for creating automation flows."
+                link="https://zapflow-saas-automation.vercel.app/"
+                github="https://github.com/Harshal-0901/Zapflow-saas-automation"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                github="/"
+                title="Smart Content"
+                img={smart_content_img}
+                summary="Smart Content is an AI content generator that delivers engaging and high-quality text in seconds."
+                link="https://hp-smart-content.vercel.app/"
+                github="https://github.com/Harshal-0901/SmartContent"
                 type="Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                github="/"
+                title="MedCare"
+                img={medcare_img}
+                summary="A healthcare platform that streamlines patient registration, appointment scheduling, medical records and SMS notifications."
+                link="https://medcare-six.vercel.app/"
+                github="https://github.com/Harshal-0901/MedCare"
                 type="Project"
               />
             </div>
 
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                img={project1}
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                local currency."
-                link="/"
-                github="/"
+                title="InfiMail - SaaS Email Newsletter"
+                img={infimail_img}
+                summary="InfiMail is a SaaS Email Newsletter Platform, a robust solution developed using cutting-edge technologies including Next.js 14, TypeScript, AWS SES, AstraDB, and Stripe, designed to efficiently manage and send email newsletters."
+                link="https://infimail.vercel.app/"
+                github="https://github.com/Harshal-0901/InfiMail"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                github="/"
+                title="Quill - SaaS For Students"
+                img={quill_img}
+                summary="Quill - A Modern SaaS-Platform Built With Next.js 13 and makes chatting with your PDF's easy."
+                link="https://ai-quill.vercel.app/"
+                github="https://github.com/Harshal-0901/quill-saas"
                 type="Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Crypto Screener Application"
-                img={project1}
-                link="/"
-                github="/"
+                title="ChiqueChick - Ecommerce Website"
+                img={ecom_img}
+                summary="A full-stack web application that provides an intuitive and user-friendly platform for customers to browse and purchase various products."
+                link="https://chiquechick-frontend.vercel.app/"
+                github="https://github.com/Harshal-0901"
                 type="Project"
               />
             </div>
+          </div>
+          <div className="flex items-center mt-20 justify-center">
+          <Link
+            href="https://github.com/Harshal-0901"
+            target={"_blank"}
+            className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
+                  border-2 border-solid border-transparent hover:border-dark 
+                  dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light
+                  md:p-2 md:px-4 md:text-base"
+            download={true} 
+          >
+            Check Out More Projects Here <GithubIcon className={"w-5 ml-2"} />
+          </Link>
           </div>
         </Layout>
       </main>

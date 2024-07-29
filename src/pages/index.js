@@ -39,8 +39,8 @@ export default function Home() {
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 As a skilled full-stack developer, I am dedicated to turning
                 ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in React.js and
-                web development.
+                projects showcasing my expertise in Next JS, React JS and
+                Full Stack Web Development.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
@@ -55,7 +55,7 @@ export default function Home() {
                   Resume <LinkArrow className={"w-6 ml-1"} />
                 </Link>
                 <Link
-                  href="mailto:abcd@gmail.com"
+                  href="mailto:harshalpresswala007@gmail.com"
                   target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize tex-dark underline dark:text-light md:text-base"
                 >

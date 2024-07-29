@@ -13,7 +13,8 @@ const HireMe = () => {
           className={"fill-dark animate-spin-slow dark:fill-light"}
         />
         <Link
-          href="mailto:abcd@gmail.com"
+          href="mailto:harshalpresswala007@gmail.com"
+          target="_blank"
           className="flex items-center justify-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
           bg-dark text-light shadow-md border border-solid border-dark w-20 h-20 rounded-full font-semibold
           hover:bg-light hover:text-dark
