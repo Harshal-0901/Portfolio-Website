@@ -205,7 +205,7 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="ChiqueChick - Ecommerce Website"
+                title="Ecommerce Website"
                 img={ecom_img}
                 summary="A full-stack web application that provides user-friendly platform for customers to browse and purchase various products."
                 link="https://chiquechick-frontend.vercel.app/"
