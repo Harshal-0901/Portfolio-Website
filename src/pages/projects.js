@@ -207,7 +207,7 @@ const projects = () => {
               <Project
                 title="ChiqueChick - Ecommerce Website"
                 img={ecom_img}
-                summary="A full-stack web application that provides an intuitive and user-friendly platform for customers to browse and purchase various products."
+                summary="A full-stack web application that provides user-friendly platform for customers to browse and purchase various products."
                 link="https://chiquechick-frontend.vercel.app/"
                 github="https://github.com/Harshal-0901"
                 type="Project"
@@ -224,7 +224,7 @@ const projects = () => {
                   md:p-2 md:px-4 md:text-base"
             download={true} 
           >
-            Check Out More Projects Here <GithubIcon className={"w-4 ml-2"} />
+            Check Out More Projects Here 
           </Link>
           </div>
         </Layout>
