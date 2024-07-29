@@ -224,7 +224,7 @@ const projects = () => {
                   md:p-2 md:px-4 md:text-base"
             download={true} 
           >
-            Check Out More Projects Here <GithubIcon className={"w-5 ml-2"} />
+            Check Out More Projects Here <GithubIcon className={"w-4 ml-2"} />
           </Link>
           </div>
         </Layout>
