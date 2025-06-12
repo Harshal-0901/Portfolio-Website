@@ -44,7 +44,7 @@ export default function Home() {
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
-                  href="/dummy.pdf"
+                  href="https://drive.google.com/file/d/1HBotc4ETyWCU7LqBrt-M5NMVprUTivcS/view?usp=drive_link"
                   target={"_blank"}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark
                   border-2 border-solid border-transparent hover:border-dark 
@@ -55,7 +55,7 @@ export default function Home() {
                   Resume <LinkArrow className={"w-6 ml-1"} />
                 </Link>
                 <Link
-                  href="mailto:harshalpresswala007@gmail.com"
+                  href="https://www.linkedin.com/in/harshal-presswala/"
                   target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize tex-dark underline dark:text-light md:text-base"
                 >

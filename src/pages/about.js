@@ -116,9 +116,9 @@ const about = () => {
                 </h2>
               </div>
 
-              {/* <div className="flex flex-col items-end justify-center xl:items-center">
+              <div className="flex flex-col items-end justify-center xl:items-center mt-20 xl:mt-0 xl:ml-10">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={4} />+
+                  <AnimatedNumbers value={1} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base
@@ -126,11 +126,11 @@ const about = () => {
                 >
                   years of experience
                 </h2>
-              </div> */}
+              </div>
             </div>
           </div>
           <Skills />
-          {/* <Experience /> */}
+          <Experience />
           <Education />
         </Layout>
       </main>

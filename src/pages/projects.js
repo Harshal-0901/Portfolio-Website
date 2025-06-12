@@ -11,6 +11,9 @@ import medcare_img from "../../public/images/projects/project-medcare.png";
 import quill_img from "../../public/images/projects/project-quill.png";
 import ecom_img from "../../public/images/projects/project-ecom.png";
 import infimail_img from "../../public/images/projects/project-infimail.png";
+import welth_img from "../../public/images/projects/project-welth.png";
+import prepwise_img from "../../public/images/projects/project-prepwise.png";
+import zcrum_img from "../../public/images/projects/project-zcrum.png";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -65,7 +68,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
             href={link}
             target="_blank"
             className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark
-            sm:px-4 sm:text-base"
+            sm:px-4 sm:text-base "
           >
             Visit Project
           </Link>
@@ -152,6 +155,36 @@ const projects = () => {
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
+            <div className="col-span-12">
+              <FeaturedProject
+                title="Welth - AI Finance Platform"
+                img={welth_img}
+                summary="Welth is a full-stack AI finance platform built using Next.js, Supabase, Tailwind CSS, Prisma, Inngest, ArcJet, and Shadcn UI. It provides a comprehensive solution for managing personal finances, including features such as transaction tracking, receipt scanning, and financial analysis."
+                link="https://welth-delta-coral.vercel.app/"
+                github="https://github.com/Harshal-0901/Welth"
+                type="Featured Project"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="PrepWise"
+                img={prepwise_img}
+                summary="Prepwise is a mock interview preparation platform powered by Vapi AI Voice agent."
+                link="https://prep-wise-eight-gamma.vercel.app/"
+                github="https://github.com/Harshal-0901/PrepWise"
+                type="Project"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Zcrum"
+                img={zcrum_img}
+                summary="A project management tool built using Next.js, React, Tailwind CSS, Prisma, Neon, Clerk, and Shadcn UI."
+                link="https://medcare-six.vercel.app/"
+                github="https://github.com/Harshal-0901/MedCare"
+                type="Project"
+              />
+            </div>
             <div className="col-span-12">
               <FeaturedProject
                 title="ZapFlow - SaaS Automation Builder"

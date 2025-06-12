@@ -54,47 +54,12 @@ const Experience = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-7">
           <Details
-            position="Software Engineer"
-            company="Google"
+            position="Software Engineer Intern"
+            company="TEN"
             companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
-          />
-
-          <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
-          />
-
-          <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
-          />
-
-          <Details
-            position="Software Engineer"
-            company="Google"
-            companyLink="www.google.com"
-            time="2022-Present"
-            address="Mountain View, CA"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            time="Jan'2025 - May'2025"
+            address="Remote"
+            work="Designed and implemented modular, reusable UI components using React and Next.js, while integrating Firebase for real-time data syncing, authentication, and cloud storage, and incorporating Vapi, an AI-powered voice agent, to enable interactive mock interviews and voice commands—resulting in a 30% improvement in workflow efficiency, 35% boost in user engagement, and 25% increase in feature adoption."
           />
         </ul>
       </div>
